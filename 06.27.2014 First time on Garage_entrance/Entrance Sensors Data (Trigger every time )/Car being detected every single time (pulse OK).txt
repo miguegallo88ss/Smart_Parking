@@ -1,0 +1,118 @@
+//****** started up at 50 *********//
+SEE NOTE AT TH END
+
+clock Up
+49
+clock Up
+48
+clock Up
+47
+clock Up
+46
+clock Up
+45
+clock Up
+44
+clock Up
+43
+clock Up
+42
+clock Up
+41
+clock Up
+40
+clock Up
+39
+clock Up
+38
+clock Up
+37
+clock Up
+36
+clock Up
+35
+clock Up
+34
+clock Up
+33
+clock Up
+32
+clock Up
+31
+clock Up
+30
+clock Up
+29
+clock Up
+28
+clock Up
+27
+clock Up
+26
+clock Up
+25
+clock Up
+24
+clock Up
+23
+clock Up
+22
+clock Up
+21
+clock Up
+20
+clock Up
+19
+clock Up
+18
+clock Up
+17
+clock Up
+16
+clock Up
+15
+clock Up
+14
+clock Up
+13
+clock Up
+12
+clock Up
+11
+clock Up
+10
+clock Up
+9
+clock Up
+8
+clock Up
+7
+clock Up
+6
+clock Up
+5
+clock Up
+4
+clock Up
+3
+clock Up
+2
+clock Up
+1
+clock Up
+0
+clock Up
+-1
+clock Up
+-2
+
+
+Note: After passing the car 50 times through sensors, Omega 2560 only read 16 cars entered. 
+
+Variable used: 
+	int kk;
+	
+Printed and counted down:
+	 Serial.println ("clock Up");
+	 kk--;
+	 Serial.println(kk);

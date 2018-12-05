@@ -1,0 +1,21 @@
+1. Problems:
+	a) Printing and counting every time  car is in, it was proven that the pulse does its job
+	   perfectly. 
+    b)  Problem is with the Omega 2560 board and the timing. 
+	
+2. Solution:
+	a) Tweak Omega 2560 board in order to synchronize the pulse and the loop running on Omega board 
+	b) *** Solved by printing a "-" :
+			if(val_2 == 1)  // car detected at the entrance 
+			{
+			   data.EntrancePulseFlag = true;
+			   Serial.print("-");
+			}
+			
+			if(val_3 == 1)  // car detected at the entrance 
+			{
+				data.EntrancePulseFlag = true;
+				Serial.print("-");
+			}
+			
+		Note: this added about 1uS to the total time it takes to loop. 
